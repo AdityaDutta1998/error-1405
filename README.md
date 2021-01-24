@@ -1,1 +1,1 @@
-# error-1405
+A fake virus webpage just for shits and giggles
