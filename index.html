@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script src="https://use.fontawesome.com/84886ccba8.js"></script>  
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container"> 
+            <i class="material-icons" style="font-size:48px;color:red">warning</i>
+            <p><h1>Your mobile may have a virus!</h1></p>
+            <h2>Your location: Bengaluru, India</h2>
+            <h2>Your ISP: Airtel</h2>
+            <h2>Your IP Address: 106.206.10.54</h2>
+            <p><h2>The only way you can resolve this is by answering the following question:</h2></p>
+            <div id="goto_question" class="goto_question"></div>
+            <button id="goto_question_button" class="btn" onclick="style.display = 'none'">Go to question</button>
+            <p>
+                <div id="questionDiv"  style="display:none;" > 
+                    <h2>Will you be Adiboi's girlfriend?</h2>
+                    <br>
+                    <button id="yes_button" class="btn">Yes</button>
+                    <button id="no_button" class="btn">No</button>
+                        <div id="noDiv" style="display: none;">
+                            <br>
+                            <h2>Adiboi is disappointed but respects your decision. :/</h2>
+                            <h2>If you selected 'No' by mistake and remembered how amazing he is, just select 'Yes' :P</h2>
+                        </div>
+                </div>
+            </p>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
